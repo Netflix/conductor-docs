@@ -48,7 +48,7 @@ server $ ../gradlew bootRun
 ```
 
 Navigate to the swagger API docs:
-[http://{{ server_host }}/swagger-ui/index.html?configUrl=/api-docs/swagger-config](http://{{ server_host }}/swagger-ui/index.html?configUrl=/api-docs/swagger-config)
+[{{ server_host }}/swagger-ui/index.html?configUrl=/api-docs/swagger-config]({{ server_host }}/swagger-ui/index.html?configUrl=/api-docs/swagger-config)
 
 ![swagger](swagger.png)
 
